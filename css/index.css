@@ -96,18 +96,20 @@ main > p {
 /* アンカー(anchor)           */
 /*****************************/
 a {
-  color: black;
-  font-weight: 900;
-  text-decoration: none;
-  /* https://developer.mozilla.org/ja/docs/Web/CSS/text-decoration */
+  color:#333;
+  font-weight:600;
+  text-decoration:none;
+  font-size:14px;
 }
 
 /* mouseoverでグレースケール */
 a:hover {
-  opacity: 0.5;
-  filter: grayscale(100%);
+  transform:scale(1.08);
 }
 
+a {
+  transition:0.2s ease;
+}
 /*****************************/
 /* container  item           */
 /*****************************/
