@@ -19,7 +19,11 @@ body {
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
     "Hiragino Sans", Meiryo, sans-serif;
   text-align: center;
-  background-image: url(../img/back.jpg); /*★自分で画像を設定すること。*/
+  background: linear-gradient(
+  135deg,
+  #dbeafe,
+  #f8fafc
+); /*★自分で画像を設定すること。*/
   background-size: cover;
 }
 
