@@ -178,6 +178,19 @@ footer > p {
   text-align: center;
   background: rgba(1, 24, 31, 0.7);
 }
+.material-symbols-outlined {
+  font-size: 64px;
+  color: #1976d2;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.item01 a,
+.item02 a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /*******************************************************/
 /* レスポンシブ対応　メディアクエリを使ってCSSを切り替える */
 /* https://www.design-memo.com/coding/css-media-queries */
