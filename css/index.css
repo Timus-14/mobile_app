@@ -40,26 +40,21 @@ div,
 /* 見出し（みだし）           */
 /*****************************/
 header {
-  position: fixed; /*ヘッダーを固定（こてい）する*/
-  /* 基準（きじゅん）を画面（がめん）の左上（ひだりうえ）に */
-  top: 0em;
-  left: 0em;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: grey;
+  padding: 10px;
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px);
   z-index: 10;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 h1 {
-  font: 2em Rajdhani, "Noto Sans JP";
-  color: rgb(181, 242, 252);
-  /* background-image: radial-gradient(
-    circle 248px at center,
-    #16d9e3 0%,
-    #30c7ec 47%,
-    #46aef7 100%
-  ); */
-  background: linear-gradient(135deg, #a80006, #ff4e50, #f9d423);
+  font-size: 2em;
+  font-weight: 700;
+  color: #007aff;
+  background: none;
 }
 
 h2 {
