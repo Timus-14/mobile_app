@@ -79,14 +79,14 @@ main {
 /* セクション(section)        */
 /*****************************/
 .container {
-  margin-top: 1em;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0.5em;
-  width: 80%;
-  border-radius: 0.5em 1.5em;
-  background-color: rgba(245, 245, 245, 0.6);
-  box-shadow: 0 0 0.5em rgb(73, 72, 72);
+  margin: 5em auto 1em;
+  padding: 1em;
+  width: 90%;
+  border-radius: 25px;
+  background: rgba(255,255,255,0.65);
+  backdrop-filter: blur(15px);
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.1);
 }
 main > p {
   font: 1.2em bold;
@@ -128,14 +128,11 @@ a:hover {
 }
 
 .item02 {
-  position: relative;
-  width: 6em;
-  height: 12em;
-  margin: 0;
-  line-height: 1em;
-  overflow: hidden;
+  width: 110px;
+  height: 130px;
+  margin: 10px;
+  overflow: visible;
 }
-
 .fade-in {
   animation: jello 1s ease forwards;
 }
@@ -178,10 +175,46 @@ footer > p {
   background: rgba(1, 24, 31, 0.7);
 }
 .material-symbols-outlined {
-  font-size: 64px;
-  color: #1976d2;
-  display: block;
-  margin-bottom: 8px;
+  font-size:45px;
+  color:white;
+
+  width:70px;
+  height:70px;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  border-radius:20px;
+
+  background:#007aff;
+
+  box-shadow:
+    0 8px 15px rgba(0,0,0,0.2);
+
+  margin:auto;
+}
+
+/* iOS app colors */
+
+.sub_container:nth-of-type(1)
+.material-symbols-outlined {
+  background:#ff9500;
+}
+
+.sub_container:nth-of-type(2)
+.material-symbols-outlined {
+  background:#34c759;
+}
+
+.sub_container:nth-of-type(3)
+.material-symbols-outlined {
+  background:#5856d6;
+}
+
+.sub_container:nth-of-type(4)
+.material-symbols-outlined {
+  background:#ff2d55;
 }
 
 .item01 a,
